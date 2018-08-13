@@ -7,6 +7,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: 'history',
+  hash: false,
   routes: [
     {
       path: '/',
@@ -18,5 +19,6 @@ export default new Router({
       name: 'Products',
       component: Products,
     },
+    { path: '*', redirect: '/' }, // catch all use case
   ],
 });

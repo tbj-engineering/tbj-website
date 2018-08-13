@@ -10,7 +10,7 @@ export default {
   name: 'Products',
   data() {
     return {
-      msg: 'Products pageeeee',
+      msg: 'Products pageeeeer',
     };
   },
 };
