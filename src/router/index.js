@@ -19,6 +19,6 @@ export default new Router({
       name: 'Products',
       component: Products,
     },
-    { path: '*', redirect: '/tbj-website' }, // catch all use case
+    { path: '*', redirect: 'tbj-website/' }, // catch all use case
   ],
 });

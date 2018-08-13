@@ -10,7 +10,7 @@ export default {
   name: 'Products',
   data() {
     return {
-      msg: 'Products page',
+      msg: 'Products page yes',
     };
   },
 };
