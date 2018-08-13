@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      msg: 'TBJ Website - Whooooo',
+      msg: 'TBJ Website',
     };
   },
 };
