@@ -19,6 +19,5 @@ export default new Router({
       name: 'Products',
       component: Products,
     },
-    { path: '*', redirect: '/' }, // catch all use case
   ],
 });
