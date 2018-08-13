@@ -4,6 +4,7 @@
   "description": "Website for TBJ Engineering",
   "author": "Benjamin Eason <benjamin.eason@me.com>",
   "private": true,
+  "homepage": "https://tbj-engineering.github.io/tbj-website/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
