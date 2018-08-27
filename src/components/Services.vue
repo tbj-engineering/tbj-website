@@ -1,7 +1,16 @@
 <template>
-<div class="hello">
-  <h1>{{ msg }}</h1>
+<div >
 
+  <div class="py-5 hero">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Services</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 
