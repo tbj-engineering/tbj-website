@@ -3,7 +3,15 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+import {
+  faPhone,
+  }
+  from '@fortawesome/free-solid-svg-icons';
 
+library.add(faPhone); // eslint-disable-line
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

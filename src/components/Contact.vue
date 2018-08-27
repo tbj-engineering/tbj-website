@@ -1,0 +1,57 @@
+<template>
+  <div>
+    <div class="py-5 hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Contact</h2>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+
+  <div class="row py-5">
+    <div class="col-sm-6">
+      <div class="pb-5">
+        <h4>Tom Johns <span class="small">Director</span></h4> M: 07721 318105</br>
+        E: tom@tbjohns.co.uk
+      </div>
+      <div class="pb-5">
+        <h4>Alex Johns <span class="small">Technical Director</span></h4> M: 07843 076607</br>
+        E: alex@tbjohns.co.uk
+      </div>
+
+    </div>
+    <div class="col">
+      <h4>Address</h4>
+      T.B Johns Ltd<br>
+      34a High street<br>
+      Scotter <br>
+      Gainsborough <br>
+      DN21 3TW<br><br>
+      T: 01724 763300
+    </div>
+  </div>
+</div>
+</div>
+</template>
+
+<script>
+export default {
+  name: 'Contact',
+  data() {
+    return {};
+  },
+  metaInfo: {
+    title: 'Contact',
+  },
+};
+</script>
+
+
+<style scoped>
+
+</style>
