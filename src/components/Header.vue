@@ -10,7 +10,7 @@
         <div class="d-flex align-items-center nav">
 
       <router-link class="nav-item" to="services">Services</router-link>
-      <router-link class="nav-item" to="contact">Contact Us</router-link>
+      <router-link class="nav-item" to="contact">Contact</router-link>
     </div>
 
 
