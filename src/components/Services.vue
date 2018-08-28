@@ -20,8 +20,7 @@
           <li class="list-group-item" v-b-toggle.collapse2>Industrial Commercial panels</li>
           <li class="list-group-item" v-b-toggle.collapse3>Bespoke Lighting Encolusures</li>
           <li class="list-group-item" v-b-toggle.collapse4>Bespoke Keypads and Faceplates</li>
-          <li class="list-group-item" v-b-toggle.collapse5>Exhibition, Showroom & Demonstration</li>
-          </li>
+          <li class="list-group-item" v-b-toggle.collapse5>Exhibition, Showroom &amp; Demonstration</li>
         </ul>
       </div>
       <div class="col">
@@ -168,7 +167,6 @@
 
     </div>
   </div>
-</div>
 </div>
 </template>
 
