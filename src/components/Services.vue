@@ -44,7 +44,7 @@
               <li>MCB protection for field circuits or feed through terminals</li>
               <li>Internal control components protected by RCBO</li>
             </ul>
-            <h4 class="mt-4 mb-4">Stages of the build</h4>
+            <h4 class="mt-4 mb-5">Stages of the build</h4>
             <div class="row d-flex align-items-center">
               <div class="col-4 text-center">
                 <img class="img-fluid" src="../assets/sotb-1.png">
@@ -92,6 +92,24 @@
                 </ul>
               </div>
 
+            </div>
+            <div class="row mt-5 mb-5">
+              <div class="col">
+                   <img class="img-fluid" src="../assets/sotb-5.png">
+              </div>
+            </div>
+            <div class="row mt-5 mb-5 d-flex align-items-center">
+              <div class="col-sm-6">
+                    <p class="font-weight-bold ">Photographs showing a 1250mm x 800mm x 210mm Wall Mount 8 row enclosure comprising.</p>
+                    <ul class="mt-4 ml-0 pl-3">
+                      <li>2 x Universal Dimmers each with 4 Channels of forward or reverse phase dimming.</li>
+                      <li>12 Units each with 4 x Channels of 0-10v fluorescent and LED dimming or switching of lighting and fans.</li>
+                    </ul>
+
+              </div>
+              <div class="col text-center">
+                   <img class="img-fluid  w-75" src="../assets/sotb-6.png">
+              </div>
             </div>
 
             <div class="row mt-5">
@@ -202,12 +220,13 @@ export default {
 }
 
 .list-group-item {
-    box-shadow: inset 11px 0 0 -7px $primary;
+    box-shadow: inset 11px 0 0 -7px $blue;
     border: none;
     pointer-events: none;
-    color: $primary;
+    color: $base;
+    font-weight: bold;
     &.collapsed {
-
+  font-weight: normal;
         box-shadow: none;
         color: inherit;
         pointer-events: all;
