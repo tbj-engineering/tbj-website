@@ -13,7 +13,7 @@
   <div class="container py-4">
     <div class="row no-transition">
 
-      <div class="col-3">
+      <div class="col-sm-3">
 
         <ul class="list-group list-group-flush sticky-top py-3">
           <li class="list-group-item" v-b-toggle.collapse1>Panel Design</li>
@@ -157,7 +157,7 @@
             <h2 class="mb-4">Exhibition, Showroom & Demonstration</h2>
             <h5 class="leader mb-4">T.B Johns Designs and builds a range of Exhibition, Showroom & Demonstration Panels.These can include demonstration cases as shown in the photographs.</h5>
             <div class="row text-center">
-              <div class="col">
+              <div class="col-sm-6">
                 <div class="text-center p-5">
                     <img class="img-fluid w-75" src="../assets/esd-1.png">
                 </div>
@@ -172,7 +172,7 @@
               </div>
             </div>
             <div class="row text-center">
-              <div class="col">
+              <div class="col-sm-6">
                 <div class="text-center p-5">
                     <img class="img-fluid w-75" src="../assets/esd-3.png">
                 </div>
@@ -233,4 +233,6 @@ export default {
         cursor: pointer;
     }
 }
+
+
 </style>
