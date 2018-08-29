@@ -93,6 +93,15 @@
               </div>
 
             </div>
+
+            <div class="row mt-5">
+              <div class="col">
+                <h5 class="mb-5">T.B Johns Designed &amp; Built a multiple planel lighting control system for a luxury hotel utilising Lutron dimming &amp; switching modules including processing units.</h5>
+                  <div class="text-center">
+                     <img class="img-fluid w-75" src="../assets/sotb-4.png">
+                  </div>
+              </div>
+            </div>
           </b-collapse>
           <b-collapse id="collapse2" accordion="my-accordion">
             <h2 class="mb-4">Industrial Commercial Panels</h2>
