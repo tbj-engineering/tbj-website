@@ -7,10 +7,8 @@
 
 
 
-          <b-navbar-brand>
-            <b-navbar-nav>
-              <b-nav-item to="/" class="no-styling"><img alt="TB Johns logo" src="../assets/logo.png" width="180"></b-nav-item>
-            </b-navbar-nav>
+          <b-navbar-brand to="/" class="no-styling">
+          <img alt="TB Johns logo" src="../assets/logo.png" width="180">
           </b-navbar-brand>
 
           <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
