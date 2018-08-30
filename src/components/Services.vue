@@ -47,7 +47,7 @@
             <h4 class="mt-4 mb-5">Stages of the build</h4>
             <div class="row d-flex align-items-center">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-1.png">
+                <img class="img-fluid" src="../assets/sotb-1.png" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Removable Frame with Components</p>
@@ -63,7 +63,7 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-2.png">
+                <img class="img-fluid" src="../assets/sotb-2.png" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Enclosure Fully Wired with Fitted Covers</p>
@@ -78,7 +78,7 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-3.png">
+                <img class="img-fluid" src="../assets/sotb-3.png" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Completed Enclosure with Door</p>
@@ -95,7 +95,7 @@
             </div>
             <div class="row mt-5 mb-5">
               <div class="col">
-                   <img class="img-fluid" src="../assets/sotb-5.png">
+                   <img class="img-fluid" src="../assets/sotb-5.png" @click="showModal($event)">
               </div>
             </div>
             <div class="row mt-5 mb-5 d-flex align-items-center">
@@ -108,7 +108,7 @@
 
               </div>
               <div class="col text-center">
-                   <img class="img-fluid  w-75" src="../assets/sotb-6.png">
+                   <img class="img-fluid  w-75" src="../assets/sotb-6.png" @click="showModal($event)">
               </div>
             </div>
 
@@ -116,7 +116,7 @@
               <div class="col">
                 <h5 class="mb-5">T.B Johns Designed &amp; Built a multiple planel lighting control system for a luxury hotel utilising Lutron dimming &amp; switching modules including processing units.</h5>
                   <div class="text-center">
-                     <img class="img-fluid w-75" src="../assets/sotb-4.png">
+                     <img class="img-fluid w-75" src="../assets/sotb-4.png" @click="showModal($event)">
                   </div>
               </div>
             </div>
@@ -125,7 +125,7 @@
             <h2 class="mb-4">Industrial Commercial Panels</h2>
             <h5 class="leader mb-4">T.B Johns Designed & Built a large scalable multiple panel lighting control system for an International Airport in the Middle East utilising Crestron Industrial dimming & switching modules.</h5>
             <div class="text-center p-5">
-              <img class="img-fluid w-75" src="../assets/icp-1.png">
+              <img class="img-fluid w-75" src="../assets/icp-1.png" @click="showModal($event)">
             </div>
 
           </b-collapse>
@@ -142,7 +142,7 @@
               <li>Wall or floor mount.</li>
               <li>Surface or flush mount.</li>
             </ul>
-            <img class="img-fluid" src="../assets/ble-1.png">
+            <img class="img-fluid" src="../assets/ble-1.png" @click="showModal($event)">
           </b-collapse>
           <b-collapse id="collapse4" accordion="my-accordion">
             <h2 class="mb-4">Bespoke Keypads and Faceplates</h2>
@@ -150,7 +150,7 @@
             <p>T.B Johns designed and manufactured this control module and Face Plate combination to accommodate the Crestron C2N-UN1810.This application allowed for a very narrow Face Plate and back box, as specified by the architects designing a luxury
               Italian Super Yacht.</p>
               <div class="text-center p-5">
-                <img class="img-fluid w-75" src="../assets/bkf-1.png">
+                <img class="img-fluid w-75" src="../assets/bkf-1.png" @click="showModal($event)">
               </div>
           </b-collapse>
           <b-collapse id="collapse5" accordion="my-accordion">
@@ -159,14 +159,14 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-1.png">
+                    <img class="img-fluid w-75" src="../assets/esd-1.png" @click="showModal($event)">
                 </div>
 
                 <p>CLWI - DIM UEX Demonstration Case showing internal components and wiring</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-2.png">
+                    <img class="img-fluid w-75" src="../assets/esd-2.png" @click="showModal($event)">
                 </div>
                 <p>Complete CLWI - DIM UEX Demonstration Case</p>
               </div>
@@ -174,13 +174,13 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-3.png">
+                    <img class="img-fluid w-75" src="../assets/esd-3.png" @click="showModal($event)">
                 </div>
                 <p>CLWI - DIM UEX Demonstration Case featuring reliable internet wireless technology</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-4.png">
+                    <img class="img-fluid w-75" src="../assets/esd-4.png" @click="showModal($event)">
                 </div>
                 <p>Dimmer Unit panel designed to show the smooth dimming of Crestron LED down lights</p>
               </div>
@@ -194,6 +194,11 @@
 
     </div>
   </div>
+  <b-modal ref="myModalRef" size="lg" centered no-fade hide-footer>
+       <div class="d-block text-center">
+         <img class="img-fluid" v-bind:src="imageLink">
+       </div>
+     </b-modal>
 </div>
 </template>
 
@@ -203,11 +208,21 @@ export default {
   data() {
     return {
       msg: 'Services',
+      imageLink: ''
     };
   },
   metaInfo: {
     title: 'Services',
   },
+  methods: {
+    showModal (img) {
+      this.imageLink = img.target.src;
+      this.$refs.myModalRef.show()
+    },
+    hideModal () {
+      this.$refs.myModalRef.hide()
+    }
+  }
 };
 </script>
 
@@ -232,7 +247,22 @@ export default {
         pointer-events: all;
         cursor: pointer;
     }
-}
 
+
+}
+img {
+  cursor: zoom-in;
+}
+.modal-dialog {
+  min-width: 80%;
+
+  .modal-header {
+    border:none;
+  }
+
+  img {
+    cursor: default;
+  }
+}
 
 </style>

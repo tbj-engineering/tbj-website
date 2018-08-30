@@ -16,12 +16,16 @@
   <div class="row py-5">
     <div class="col-sm-6">
       <div class="pb-5">
-        <h4>Tom Johns <span class="small">Director</span></h4> M: 07721 318105<br />
+        <h4>Tom Johns <span class="small">Director</span></h4> M: 07721 318 105<br />
         E: tom@tbjohns.co.uk
       </div>
       <div class="pb-5">
-        <h4>Alex Johns <span class="small">Technical Director</span></h4> M: 07843 076607<br />
+        <h4>Alex Johns <span class="small">Technical Director</span></h4> M: 07843 076 607<br />
         E: alex@tbjohns.co.uk
+      </div>
+      <div class="pb-5">
+        <h4>Rebecca Johns <span class="small">Company Secretary</span></h4> M: 07540 385 430<br />
+        E: beccajohns1977@hotmail.com
       </div>
 
     </div>

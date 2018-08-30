@@ -21,8 +21,6 @@ Vue.use(VueAnalytics, {
   }
 })
 
-console.log(VueAnalytics);
-
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 import {
   faPhone,
