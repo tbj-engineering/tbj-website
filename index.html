@@ -12,14 +12,11 @@
       delete sessionStorage.redirect;
       if (redirect && redirect != location.href) {
         history.replaceState(null, null, redirect);
-        console.log('done')
-        console.log(sessionStorage.redirect)
       }
 
     })();
   </script>
 </head>
-
 <body>
   <div id="app"></div>
   <!-- built files will be auto injected -->

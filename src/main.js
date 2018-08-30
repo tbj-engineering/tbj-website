@@ -4,12 +4,25 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import Meta from 'vue-meta'
+import VueAnalytics from 'vue-analytics'
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue);
 Vue.use(Meta);
+
+Vue.use(VueAnalytics, {
+  id: 'UA-XXX-X',
+  router,
+  debug: {
+    sendHitTask: process.env.NODE_ENV === 'production'
+  }
+})
+
+console.log(VueAnalytics);
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 import {
   faPhone,
