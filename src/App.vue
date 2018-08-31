@@ -65,4 +65,41 @@ html {
 .brand-color-light {
     background: lighten($primary,10%);
 }
+
+.modal-dialog {
+  min-width: 80%;
+  overflow: hidden;
+  border-radius: 5px;
+      position: relative;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  .modal-content {
+    border: none;
+
+  }
+  .modal-header {
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 333;
+.close {
+  opacity: 0.8;
+}
+
+  }
+
+  .modal-body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  img {
+    cursor: default;
+  }
+}
+
+
 </style>

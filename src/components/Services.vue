@@ -47,7 +47,7 @@
             <h4 class="mt-4 mb-5">Stages of the build</h4>
             <div class="row d-flex align-items-center">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-1.png" @click="showModal($event)">
+                <img class="img-fluid w-75 has-large" src="../assets/IMG_0990.jpg" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Removable Frame with Components</p>
@@ -63,7 +63,7 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-2.png" @click="showModal($event)">
+                <img class="img-fluid w-75 has-large" src="../assets/IMG_1005.jpg" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Enclosure Fully Wired with Fitted Covers</p>
@@ -78,7 +78,7 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid" src="../assets/sotb-3.png" @click="showModal($event)">
+                <img class="img-fluid w-75 has-large" src="../assets/IMG_1001.jpg" @click="showModal($event)">
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Completed Enclosure with Door</p>
@@ -95,7 +95,7 @@
             </div>
             <div class="row mt-5 mb-5">
               <div class="col">
-                   <img class="img-fluid" src="../assets/sotb-5.png" @click="showModal($event)">
+                   <img class="img-fluid" src="../assets/sotb-5.png">
               </div>
             </div>
             <div class="row mt-5 mb-5 d-flex align-items-center">
@@ -108,16 +108,24 @@
 
               </div>
               <div class="col text-center">
-                   <img class="img-fluid  w-75" src="../assets/sotb-6.png" @click="showModal($event)">
+                   <img class="img-fluid w-50 has-large" src="../assets/5M9B1803.jpg" @click="showModal($event)">
               </div>
             </div>
 
             <div class="row mt-5">
               <div class="col">
                 <h5 class="mb-5">T.B Johns Designed &amp; Built a multiple planel lighting control system for a luxury hotel utilising Lutron dimming &amp; switching modules including processing units.</h5>
-                  <div class="text-center">
-                     <img class="img-fluid w-75" src="../assets/sotb-4.png" @click="showModal($event)">
-                  </div>
+              </div>
+            </div>
+            <div class="row mt-5 d-flex align-items-center">
+              <div class="col-sm-4">
+                <img class="img-fluid w-75 has-large" src="../assets/5M9B4778.jpg" @click="showModal($event)">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid w-75 has-large" src="../assets/5M9B4795.jpg" @click="showModal($event)">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid w-75 has-large" src="../assets/5M9B4808.jpg" @click="showModal($event)">
               </div>
             </div>
           </b-collapse>
@@ -159,14 +167,14 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-1.png" @click="showModal($event)">
+                    <img class="img-fluid w-75" src="../assets/esd-1.png">
                 </div>
 
                 <p>CLWI - DIM UEX Demonstration Case showing internal components and wiring</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-2.png" @click="showModal($event)">
+                    <img class="img-fluid w-75" src="../assets/esd-2.png">
                 </div>
                 <p>Complete CLWI - DIM UEX Demonstration Case</p>
               </div>
@@ -174,13 +182,13 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-3.png" @click="showModal($event)">
+                    <img class="img-fluid w-75" src="../assets/esd-3.png">
                 </div>
                 <p>CLWI - DIM UEX Demonstration Case featuring reliable internet wireless technology</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-4.png" @click="showModal($event)">
+                    <img class="img-fluid w-75" src="../assets/esd-4.png">
                 </div>
                 <p>Dimmer Unit panel designed to show the smooth dimming of Crestron LED down lights</p>
               </div>
@@ -215,12 +223,12 @@ export default {
     title: 'Services',
   },
   methods: {
-    showModal (img) {
+    showModal(img) {
       this.imageLink = img.target.src;
-      this.$refs.myModalRef.show()
+      this.$refs.myModalRef.show();
     },
-    hideModal () {
-      this.$refs.myModalRef.hide()
+    hideModal() {
+      this.$refs.myModalRef.hide();
     }
   }
 };
@@ -251,18 +259,13 @@ export default {
 
 }
 img {
-  cursor: zoom-in;
-}
-.modal-dialog {
-  min-width: 80%;
 
-  .modal-header {
-    border:none;
-  }
-
-  img {
-    cursor: default;
+  position: relative;
+  &.has-large {
+    border:4px solid #f8f8f8;
+    cursor: zoom-in;
   }
 }
+
 
 </style>
