@@ -14,7 +14,7 @@ Vue.use(BootstrapVue);
 Vue.use(Meta);
 
 Vue.use(VueAnalytics, {
-  id: 'UA-XXX-X',
+  id: 'UA-125048472-1',
   router,
   debug: {
     sendHitTask: process.env.NODE_ENV === 'production'
