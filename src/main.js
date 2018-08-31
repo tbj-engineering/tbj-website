@@ -24,10 +24,11 @@ Vue.use(VueAnalytics, {
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 import {
   faPhone,
+  faSearchPlus
   }
   from '@fortawesome/free-solid-svg-icons';
 
-library.add(faPhone); // eslint-disable-line
+library.add(faPhone, faSearchPlus); // eslint-disable-line
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

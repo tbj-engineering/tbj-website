@@ -47,7 +47,11 @@
             <h4 class="mt-4 mb-5">Stages of the build</h4>
             <div class="row d-flex align-items-center">
               <div class="col-4 text-center">
-                <img class="img-fluid w-75 has-large" src="../assets/IMG_0990.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/IMG_0990.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
+
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Removable Frame with Components</p>
@@ -63,7 +67,10 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid w-75 has-large" src="../assets/IMG_1005.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/IMG_1005.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Enclosure Fully Wired with Fitted Covers</p>
@@ -78,7 +85,10 @@
 
             <div class="row d-flex align-items-center mt-5">
               <div class="col-4 text-center">
-                <img class="img-fluid w-75 has-large" src="../assets/IMG_1001.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/IMG_1001.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
               <div class="col">
                 <p class="font-weight-bold ">Completed Enclosure with Door</p>
@@ -95,20 +105,23 @@
             </div>
             <div class="row mt-5 mb-5">
               <div class="col">
-                   <img class="img-fluid" src="../assets/sotb-5.png">
+                <img class="img-fluid" src="../assets/sotb-5.png">
               </div>
             </div>
             <div class="row mt-5 mb-5 d-flex align-items-center">
               <div class="col-sm-6">
-                    <p class="font-weight-bold ">Photographs showing a 1250mm x 800mm x 210mm Wall Mount 8 row enclosure comprising.</p>
-                    <ul class="mt-4 ml-0 pl-3">
-                      <li>2 x Universal Dimmers each with 4 Channels of forward or reverse phase dimming.</li>
-                      <li>12 Units each with 4 x Channels of 0-10v fluorescent and LED dimming or switching of lighting and fans.</li>
-                    </ul>
+                <p class="font-weight-bold ">Photographs showing a 1250mm x 800mm x 210mm Wall Mount 8 row enclosure comprising.</p>
+                <ul class="mt-4 ml-0 pl-3">
+                  <li>2 x Universal Dimmers each with 4 Channels of forward or reverse phase dimming.</li>
+                  <li>12 Units each with 4 x Channels of 0-10v fluorescent and LED dimming or switching of lighting and fans.</li>
+                </ul>
 
               </div>
               <div class="col text-center">
-                   <img class="img-fluid w-50 has-large" src="../assets/5M9B1803.jpg" @click="showModal($event)">
+                <div class="has-large w-50">
+                  <img class="img-fluid" src="../assets/5M9B1803.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
             </div>
 
@@ -119,13 +132,22 @@
             </div>
             <div class="row mt-5 d-flex align-items-center">
               <div class="col-sm-4">
-                <img class="img-fluid w-75 has-large" src="../assets/5M9B4778.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/5M9B4778.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
               <div class="col-sm-4">
-                <img class="img-fluid w-75 has-large" src="../assets/5M9B4795.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/5M9B4795.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
               <div class="col-sm-4">
-                <img class="img-fluid w-75 has-large" src="../assets/5M9B4808.jpg" @click="showModal($event)">
+                <div class="has-large w-75">
+                  <img class="img-fluid" src="../assets/5M9B4808.jpg" @click="showModal($event)">
+                  <font-awesome-icon icon="search-plus" />
+                </div>
               </div>
             </div>
           </b-collapse>
@@ -157,9 +179,9 @@
             <h5 class="leader mb-4">T.B Johns can manufacture unique keypads to architects design and specifications for individual projects in a variety of finishes, button configurations, screw or screw-less application.</h5>
             <p>T.B Johns designed and manufactured this control module and Face Plate combination to accommodate the Crestron C2N-UN1810.This application allowed for a very narrow Face Plate and back box, as specified by the architects designing a luxury
               Italian Super Yacht.</p>
-              <div class="text-center p-5">
-                <img class="img-fluid w-75" src="../assets/bkf-1.png" @click="showModal($event)">
-              </div>
+            <div class="text-center p-5">
+              <img class="img-fluid w-75" src="../assets/bkf-1.png" @click="showModal($event)">
+            </div>
           </b-collapse>
           <b-collapse id="collapse5" accordion="my-accordion">
             <h2 class="mb-4">Exhibition, Showroom & Demonstration</h2>
@@ -167,14 +189,14 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-1.png">
+                  <img class="img-fluid w-75" src="../assets/esd-1.png">
                 </div>
 
                 <p>CLWI - DIM UEX Demonstration Case showing internal components and wiring</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-2.png">
+                  <img class="img-fluid w-75" src="../assets/esd-2.png">
                 </div>
                 <p>Complete CLWI - DIM UEX Demonstration Case</p>
               </div>
@@ -182,13 +204,13 @@
             <div class="row text-center">
               <div class="col-sm-6">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-3.png">
+                  <img class="img-fluid w-75" src="../assets/esd-3.png">
                 </div>
                 <p>CLWI - DIM UEX Demonstration Case featuring reliable internet wireless technology</p>
               </div>
               <div class="col">
                 <div class="text-center p-5">
-                    <img class="img-fluid w-75" src="../assets/esd-4.png">
+                  <img class="img-fluid w-75" src="../assets/esd-4.png">
                 </div>
                 <p>Dimmer Unit panel designed to show the smooth dimming of Crestron LED down lights</p>
               </div>
@@ -203,10 +225,10 @@
     </div>
   </div>
   <b-modal ref="myModalRef" size="lg" centered no-fade hide-footer>
-       <div class="d-block text-center">
-         <img class="img-fluid" v-bind:src="imageLink">
-       </div>
-     </b-modal>
+    <div class="d-block text-center">
+      <img class="img-fluid" v-bind:src="imageLink">
+    </div>
+  </b-modal>
 </div>
 </template>
 
@@ -249,23 +271,42 @@ export default {
     color: $base;
     font-weight: bold;
     &.collapsed {
-  font-weight: normal;
+        font-weight: normal;
         box-shadow: none;
         color: inherit;
         pointer-events: all;
         cursor: pointer;
     }
 
-
 }
 img {
 
-  position: relative;
-  &.has-large {
-    border:4px solid #f8f8f8;
-    cursor: zoom-in;
-  }
+    position: relative;
 }
 
+.has-large {
+    position: relative;
+    margin: 0 auto;
+    img {
+        border: 4px solid #f8f8f8;
+        cursor: zoom-in;
+    }
 
+    svg {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      padding: 5px;
+      z-index: 33;
+      background: #f8f8f8;
+      font-size: 24px;
+      color: #b6b6b6;
+    }
+
+    &:hover {
+      svg {
+            color: $base;
+      }
+    }
+}
 </style>
