@@ -58,4 +58,8 @@ export default {
 
 <style scoped>
 
+.no-link {
+  color: inherit;
+  text-decoration: none;
+}
 </style>
